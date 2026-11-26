@@ -1,3 +1,4 @@
+![Lean Action CI](https://github.com/elsasc1/lean-proofs/actions/workflows/lean_action_ci.yml/badge.svg)
 # lean-proofs
 
 Lean 4 / mathlib formalizations of undergraduate mathematics, written with mathlib conventions
