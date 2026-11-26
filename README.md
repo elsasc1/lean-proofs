@@ -7,6 +7,7 @@ Lean 4 / mathlib formalizations of undergraduate mathematics, written with mathl
 |------|---------|
 | `LeanProofs/Basic.lean` | Closed forms of finite sums (Gauss sum, odd numbers, sum of squares) |
 | `LeanProofs/Inequalities.lean` | Bernoulli, AM-GM (two variables), Cauchy–Schwarz in dimension 2 |
+| `LeanProofs/BinomialModel.lean` | One-period binomial (CRR) model: no-arbitrage ⇔ `d < R < u` ⇔ risk-neutral probability in `(0,1)`; replication and pricing formula |
 
 ## Build
 
