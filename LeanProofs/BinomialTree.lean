@@ -55,7 +55,8 @@ expectation of the payoff, written as a binomial sum over the antidiagonal
 `{(i, j) | i + j = n}` (`i` up moves, `j` down moves). -/
 theorem crrValue_eq (q R : ℝ) (n : ℕ) (g : ℕ → ℝ) :
     crrValue q R n g =
-      (∑ ij ∈ antidiagonal n, (n.choose ij.1 : ℝ) * (q ^ ij.1 * (1 - q) ^ ij.2 * g ij.1)) / R ^ n := by
+      (∑ ij ∈ antidiagonal n,
+        (n.choose ij.1 : ℝ) * (q ^ ij.1 * (1 - q) ^ ij.2 * g ij.1)) / R ^ n := by
   induction n generalizing g with
   | zero => simp [crrValue]
   | succ n ih =>
